@@ -1,0 +1,1 @@
+(()=>{"use strict";var e=[{name:"venky",premium:!0},{name:"mahesh",premium:!1},{name:"sahul",premium:!0},{name:"tharun",premium:!1}];console.log(e);var m=function(e){return e.filter((function(e){return e.premium}))}(e);console.log(m)})();

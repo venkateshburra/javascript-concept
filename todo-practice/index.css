@@ -1,0 +1,89 @@
+*, *::after, *::before{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: rgb(1, 55, 60);
+}
+
+html{
+  font-size: 62.5%;
+}
+
+.parent_div{
+  background: rgb(69, 41, 88);
+  width: 100%;
+  max-width: 550px;
+  margin: 4rem auto;
+  margin-top: 2rem;
+  padding: 3rem;
+}
+
+.header_div {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.header_div .h2_todo_heading {
+  color: rgb(196, 121, 29);
+  font-size: 4rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  
+}
+
+form .search_input {
+  font-size: 1.8rem;
+  color: #000;
+  background: rgb(189, 189, 189);
+  border: 0;
+  padding: 0.6rem;
+  border-radius: 5px;
+  width: 440px;
+  padding-left: 4rem;
+  margin-left: 2rem;
+}
+form .search_input:focus{
+  outline: none;
+  border: 3px solid rgb(132, 245, 245);
+}
+
+form .add {
+  font-size: 1.8rem;
+  color: #000;
+  background: rgb(189, 189, 189);
+  border: 0;
+  padding: 0.6rem;
+  border-radius: 5px;
+  width: 440px;
+  padding-left: 4rem;
+  margin-left: 2rem;
+}
+form .add:focus{
+  outline: none;
+  border: 3px solid rgb(132, 245, 245);
+}
+
+.list{
+  list-style-type: none;
+  margin: 2rem;
+}
+
+.list li {
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
+  margin: 2rem;
+}
+
+li i:hover{
+  color: crimson;
+  cursor: pointer;
+}
+
+.filterd {
+  display: none !important;
+}
